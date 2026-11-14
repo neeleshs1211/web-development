@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    height: 100vh;
+    color: aquamarine;
+    text-align: center;
+    place-items: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+        );
+        background-attachment: fixed;
+    }
+h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000;
+}
+p{
+    font-size: 28px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000;
+}
+.section-1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZyZqri2ylnzh_SLBjs1xmTcByTKd6yO7GHqt36nbgw&s=10");
+}
+.section-2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRId8UK6XVgm6X6Soph832049I60Y_vbW4yehcVBY4sEg&s=10");
+}
+.section-3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWHtQqXN4spb066vzscJ5zwoMbw7gACa3oE6M0cOJ1OA&s=10");
+}
+.section-4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJUFZIpJVOfbAc4JEm70fKPaZFVAWH1xVi3cbIHYxGGA&s=10");
+}

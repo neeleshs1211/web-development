@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: aliceblue;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.box { 
+    width: 100px;
+    height: 100px;
+    /* aspect-ratio:1.2; */
+    background: #EEAECA;
+    border-radius: 50%;
+    box-shadow: 0 0 100px black;
+    transition: all 2s;
+}
+
+.box:nth-child(1):hover {
+    transition-timing-function: linear;
+    translate: 80vw 0;
+}
+
+.box:nth-child(2):hover {
+    transition-timing-function: ease;
+    translate: 80vw 0;
+}
+
+.box:nth-child(3):hover {
+    transition-timing-function: ease-in;
+    translate: 80vw 0;
+}
+
+.box:nth-child(4):hover {
+    transition-timing-function: ease-in-out;
+    translate: 80vw 0;
+}
+
+a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+
+    /* transition */
+    /* transition-property: width, font-size, background-color, color; */
+    /* transition-duration: 5s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 3s; */
+
+    transition: all 5s linear 3s;
+}
+
+a:hover {
+    width: 350px;
+    font-size: 50px;
+    color: antiquewhite;
+    background-color: rgb(2, 58, 58);
+}

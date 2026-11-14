@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for store */
+/* :root{
+    --text-color : white; // uses var(--text-color)
+} */
+body {
+    background-color: rgb(229, 238, 246);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.flexBox {
+    height: 75vh;
+    width: 70vw;
+    margin:10px auto;
+    box-shadow: 0px 0px 15px black;
+    background-image: linear-gradient(to right top,
+            #265499,
+            #12608d,
+            #008793,
+            #00bf72,
+            #a8eb12);
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: calc(); */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+     gap: 22px;
+    /* flex-wrap: wrap; */
+   /* align-content: center; */
+}
+
+.box {
+    height: 75px;
+    width: 105px;
+    border: 0.5px solid black;
+    box-shadow: 0px 0px 30px rgb(15, 10, 10);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5%;
+    flex-grow: 1;
+}
+
+.box-1 {
+    background-color: #a8eb12;
+    color: #062a5f;
+}
+
+.box-2 {
+    background-color: #00bf72;
+    color: #062a5f;
+    /* align-self: center; */
+    /* flex-grow: 1; */
+   /* flex-shrink: 5; */
+}
+
+.box-3 {
+    background-color: #008793;
+    color: #03193b;
+}
+
+.box-4 {
+    background-color: #12608d;
+    color: #afd856;
+}
+
+.box-5 {
+    background-color: #265499;
+    color: #a8eb12;
+}

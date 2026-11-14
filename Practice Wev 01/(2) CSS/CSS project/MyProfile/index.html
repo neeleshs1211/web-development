@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- navbar -->
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo 1.jpeg" alt="Logo">
+        </div>
+
+        <!-- Desktop Navbar -->
+        <nav class="navbutton">
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#homeSection">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#notesSection">Notes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Help</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <h3></h3>
+            <button class="close-btn" id="closeDrawer" aria-label="Close menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <ul>
+            <li><a href="#homeSection">Home</a></li>
+            <li><a href="#notesSection">Notes</a></li>
+            <li><a href="#contactSection">Contact</a></li>
+            <li><a href="/">Help</a></li>
+        </ul>
+    </div>
+
+    <!-- navbar -->
+    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- HomeSection -->
+
+    <div id="homeSection">
+        <div class="home_Left">
+
+            <h1 class="home_Left_heading">Unlock Your Coding Protential & Master DSA</h1>
+            <p class="home_Left_dec">Level up your coding skills with hands-on practice, master Data Structures and
+                Algorithms (DSA), and
+                build strong problem-solving abilities. Learn step by step, solve real-world coding challenges, and
+                prepare confidently for technical interviews and your dream job.
+                Learn. Code. Practice. Master.
+            </p>
+            <div class="home_Left_button">Go To Channel</div>
+
+        </div>
+        <div class="home_right"></div>
+
+    </div>
+    <!-- HomeSection -->
+    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- NotesSection -->
+    <div id="notesSection">
+        <a href="">
+            <div class="card card-1"></div>
+        </a>
+        <a href="">
+            <div class="card card-2"></div>
+        </a>
+        <a href="">
+            <div class="card card-3"></div>
+        </a>
+        <a href="">
+            <div class="card card-4"></div>
+        </a>
+        <a href="">
+            <div class="card card-5"></div>
+        </a>
+        <a href="">
+            <div class="card card-6"></div>
+        </a>
+    </div>
+    <!-- NotesSection -->
+    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- ContactSection -->
+
+     <footer id="footer">
+
+        <div class="footer-container">
+
+            <!-- Brand & About -->
+            <div class="footer-about">
+
+                <a href="#home" class="footer-logo">
+                    TheCoding<span>Crafter</span>
+                </a>
+
+                <p>
+                    Learn, practice, and master coding with confidence.
+                    Explore Java, Data Structures & Algorithms, and
+                    Frontend Development through practical examples,
+                    projects, and placement-focused learning.
+                </p>
+
+                <!-- Social Media -->
+                <div class="social-links">
+
+                    <a href="https://www.linkedin.com/in/neelesh-sharma-1872532a2/?isSelfProfile=true"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/thecodingcrafter?psln=MW80MzV3dGtjdzZweQ=="
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/@YOUR-CHANNEL"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="mailto:neeleshs1211@gmail.com"
+                       aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                    <a href="https://github.com/neeleshs1211"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <ul class="footer-links">
+                    <li><a href="#homeSection">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#notesSection">Courses</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Learning Resources -->
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <ul class="footer-links">
+                    <li><a href="#java">Java Programming</a></li>
+                    <li><a href="#dsa">Data Structures & Algorithms</a></li>
+                    <li><a href="#frontend">Frontend Development</a></li>
+                    <li><a href="#tutorials">Tutorials</a></li>
+                    <li><a href="#resources">Coding Resources</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer-column" id="contact">
+
+                <h3>Get In Touch</h3>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:neeleshs1211@gmail.com">
+                        neeleshs1211@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+919876543210">
+                        +91 8871660880
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Bhopal, Madhya Pradesh, India</span>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Available for learning & collaboration</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 TheCodingCrafter.
+                All rights reserved.
+            </p>
+
+            <p>
+                Designed with
+                <span class="heart">&hearts;</span>
+                by
+                <a href="#home">TheCodingCrafter</a>
+            </p>
+        </div>
+    </footer>
+    <!-- ContactSection -->
+</body>
+<script src="scrip.js"></script>
+
+</html>
