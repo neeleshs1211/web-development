@@ -1,5 +1,5 @@
 ======================================
-# ARRAYS IN JAVASCRIPT neelesh
+# ARRAYS IN JAVASCRIPT
 ======================================
 
 * Iterable - object where you can use the for-of loop
