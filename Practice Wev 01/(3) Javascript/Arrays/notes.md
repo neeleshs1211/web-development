@@ -4,6 +4,7 @@
 
 * Arrays can store different data types.
 * Arrays are zero-indexed.
+
 * Arrays are dynamic in size.
 * Arrays can contain other arrays (multidimensional arrays).
 * Arrays are mutable, which means we can modify their elements.
